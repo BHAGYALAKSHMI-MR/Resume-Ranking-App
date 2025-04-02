@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Ranker</title>
+</head>
+<body>
+    <h1>Resume Ranking System</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Check Match</button>
+    </form>
+</body>
+</html>
